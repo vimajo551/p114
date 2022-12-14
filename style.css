@@ -1,0 +1,21 @@
+  body{
+    background-size: contain;
+  }
+  h3
+  {
+    font-size: 25px !important;
+  }
+  canvas {
+    border-radius: 30px;
+    animation-name: pisca;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+  }
+  @keyframes pisca{
+    from{
+      box-shadow: 1px 1px 35px rgb(255, 229, 82);
+    }
+    to{
+      box-shadow: 1px 1px 35px rgb(144, 242, 255);
+    }
+  }
